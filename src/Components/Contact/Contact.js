@@ -70,11 +70,11 @@ const Contact = () => {
           <div className="col-xl-7 col-lg-7 col-md-7 col-sm-7">
             <div className="contact-form-design">
               <div className="text-center">
-                <h5>Contact Me</h5>
+                <h5>Contacto</h5>
               </div>
               <form>
                 <div className="contact-form">
-                  <label className="form-lebel">Name</label>
+                  <label className="form-lebel">Nombre</label>
                   <input
                     type="text"
                     className="form-control"
@@ -94,23 +94,20 @@ const Contact = () => {
                 </div>
 
                 <div className="contact-form">
-                  <label className="form-lebel">Job Types</label>
+                  <label className="form-lebel">Tipo de trabajo</label>
                   <select
                     className="custom-select-tag"
                     value={jobtypes}
                     onChange={(e) => setJobtypes(e.target.value)}
                   >
-                    <option>Full-time</option>
-                    <option>Working Student</option>
-
-                    <option>Part-time</option>
-
-                    <option>Contract</option>
+                    <option>Tiempo completo</option>
+                    <option>Proyecto</option>
+                    <option>Contrato</option>
                   </select>
                 </div>
 
                 <div className="contact-form">
-                  <label className="form-lebel">Message</label>
+                  <label className="form-lebel">Mensaje</label>
                   <textarea
                     rows="4"
                     type="text"
@@ -122,7 +119,7 @@ const Contact = () => {
 
                 <div className="button-submit" onClick={sendemailInfo}>
                   <p>
-                    Send <RiSendPlaneFill size={20} />
+                    Enviar <RiSendPlaneFill size={20} />
                   </p>
                 </div>
               </form>
@@ -137,3 +134,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

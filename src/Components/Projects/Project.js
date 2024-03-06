@@ -5,126 +5,39 @@ import "./Project.css";
 const Project = () => {
   const data = [
     {
-      name: "MERN Stack Job Portal",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
-      projectlink: "https://react-company-profile.netlify.app/",
+      name: "Estudio De Optimización del TSP Dinámico para la planeación de rutas de entrega de mercancias",
+      des: "Problema del vendedor ambulante dinámico (DTSP) en un ambiente esperimental estocástico y dinámico",
+      projectlink: "",
       techused: [
         {
-          techname: "Node Js",
+          techname: "Python",
         },
         {
-          techname: "Expres Js",
+          techname: "Google Colab",
         },
         {
-          techname: "React Js",
-        },
-        {
-          techname: "Next Js",
+          techname: "Jupyter",
         },
       ],
     },
 
     {
-      name: "MERN Stack Event Management Portal",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
-      projectlink: "https://react-company-profile.netlify.app/",
+      name: "Sistema De Consumo Y Costos, Suelas y Ensambles Unión",
+      des: "Desarrollo del sistema dentro de la organización que permita el control eficaz de las actividades que se realizan de gran importancia para el buen funcionamiento de la organización",
+      projectlink: "",
       techused: [
         {
-          techname: "Django",
+          techname: "Visual Fox Pro",
         },
         {
-          techname: "Expres Js",
+          techname: "Dbase",
         },
-        {
-          techname: "Vue Js",
-        },
-        {
-          techname: "Nuxt Js",
-        },
+
       ],
     },
 
-    {
-      name: "MERN Stack Social Media",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
-      projectlink: "https://react-company-profile.netlify.app/",
-      techused: [
-        {
-          techname: "Node JS",
-        },
-        {
-          techname: "Expres Js",
-        },
-        {
-          techname: "Typescript",
-        },
-        {
-          techname: "Nuxt Js",
-        },
-      ],
-    },
-    {
-      name: "MERN Stack Video Streaming",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
-      projectlink: "https://react-company-profile.netlify.app/",
-      techused: [
-        {
-          techname: "Node JS",
-        },
-        {
-          techname: "Expres Js",
-        },
-        {
-          techname: "Typescript",
-        },
-        {
-          techname: "Angular Js",
-        },
-      ],
-    },
-    {
-      name: "MERN Stack Online Learning Platform",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
-      projectlink: "https://react-company-profile.netlify.app/",
-      techused: [
-        {
-          techname: "Node JS",
-        },
-        {
-          techname: "Expres Js",
-        },
-        {
-          techname: "Typescript",
-        },
-        {
-          techname: "Angular Js",
-        },
-      ],
-    },
 
-    {
-      name: "MERN Stack E-commerc",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
-      projectlink: "https://react-company-profile.netlify.app/",
-      techused: [
-        {
-          techname: "Node JS",
-        },
-        {
-          techname: "Expres Js",
-        },
-        {
-          techname: "Material UI",
-        },
-        {
-          techname: "Redux",
-        },
 
-        {
-          techname: "React Js",
-        },
-      ],
-    },
   ];
 
   return (

@@ -32,6 +32,8 @@ const Home = ({ theme, changeTheme }) => {
                   "Analista De Datos",
                   "Desarrollador Web",
                   "Cientifico De Datos",
+                  "Desarrollo De sistemas",
+                  "Soporte Técnico",
                 ],
                 autoStart: true,
                 loop: true,
@@ -50,10 +52,10 @@ const Home = ({ theme, changeTheme }) => {
               duration={100}
               offset={-100}
             >
-              <div className="hire-me-button">Contactame</div>
+              <div className="hire-me-button">Contacto</div>
             </Link>
             <div className="get-resume-button">
-              <a href={MyCv} download="José_Adrián_cv.pdf">
+              <a href={MyCv} download="2024 GALVAN ADRIAN - CV.pdf">
                 Curriculum Vitae PDF
               </a>
             </div>

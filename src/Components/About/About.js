@@ -20,7 +20,7 @@ const About = () => {
           <div className="about-details">
             <Flip left>
               <div className="about-title">
-                <h5>About Me</h5>
+                <h5>Introduccion</h5>
                 <span className="line"></span>
               </div>
             </Flip>

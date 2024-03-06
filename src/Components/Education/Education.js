@@ -12,30 +12,29 @@ import {
 
 const Education = () => {
   const data = [
-    {
-      name: "Oxford University",
-      degree: "M.sc in Software Engineering",
-      year: "2020-2022",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-    },
-    {
-      name: "MIT University",
-      degree: "B.sc in Software Engineering",
-      year: "2016-2020",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-    },
-    {
-      name: "Cambridge College",
-      degree: "College Graduation",
-      year: "2014-2016",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-    },
-    {
-      name: "Queen school",
-      degree: "School Graduation",
-      year: "2007-2013",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-    },
+  {  name: "Instituto Tecnologico Nacional De México Campus León, CONACYT",
+    degree: "Maestría En Ciencias De La Computación (inteligencia Artificial)",
+    year: "2021-2023",
+    des: "Consejo nacional de ciencia y tecnologia, becado tiempo completo",
+  },
+  {
+    name: "Instituto Universitario Del Centro De México",
+    degree: "Maestría En Administración",
+    year: "2014-2016",
+    des: "Maestría en administración con un enfoque específico en el ámbito de la ingeniería en sistemas",
+  },
+  {
+    name: "Intituto Tecnologico Nacional De México Campus León",
+    degree: "Ingenieria En sistemas Computacionales",
+    year: "1993-1998",
+    des: "La ingeniería en sistemas disciplina interdisciplinaria que combina principios de la ingeniería, la informática y la gestión de sistemas para diseñar, desarrollar, implementar y gestionar sistemas de información complejos y eficientes",
+  },
+  {
+    name: "Centro De Bachillerato Tecnologico Industrial No. 139",
+    degree: "Preparatoria",
+    year: "1990-1993",
+    des: "Una preparatoria en máquinas de combustión interna podría ofrecer un enfoque especializado en mecánica automotriz y tecnologías relacionada",
+  }
   ];
 
 
