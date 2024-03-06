@@ -5,49 +5,28 @@ import Zoom from "react-reveal/Zoom";
 const TechStack = () => {
   const data = [
     {
-      name: "Full Stack Developer",
+      name: "IBM - Developing Front End Apps with React",
     },
     {
-      name: "Node js",
+      name: "IBM - Back-end Application Development with Node.js and Express (Proceso)",
     },
     {
-      name: "React js",
+      name: "IECA - Desarrollo Web Con .NET CORE",
     },
     {
-      name: "Vue js",
+      name: "IECA - Desarrollo Web Con React",
     },
     {
-      name: "Express js",
+      name: "Google Analista De Datos",
     },
     {
-      name: "Vue js",
+      name: "Google Gestión de Proyectos",
     },
     {
-      name: "Nuxt js",
+      name: "Google Business Intelligence",
     },
     {
-      name: "Angular js",
-    },
-    {
-      name: "Vanila js",
-    },
-    {
-      name: "Node js",
-    },
-    {
-      name: "Javascript",
-    },
-    {
-      name: "Typescript",
-    },
-    {
-      name: "Python",
-    },
-    {
-      name: "Django",
-    },
-    {
-      name: "UI/UX Design",
+      name: "IECA - Desarrollo Web Con .NET CORE (Proceso)",
     },
   ];
 
@@ -78,7 +57,7 @@ const TechStack = () => {
   return (
     <div className="container techstack-section" id="techstack">
       <div className="section-title">
-        <h5>Tech Stack</h5>
+        <h5>Certificados</h5>
         <span className="line"></span>
       </div>
 

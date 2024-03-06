@@ -27,111 +27,64 @@ const WorkExperience = () => {
     },
 
     {
-      companyname: "Facebook",
-      position: "Full Stack Developer",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
-      year: "2020-2021",
-
-      techskills: [
-        {
-          techname: "Node JS",
-        },
-        {
-          techname: "Express JS",
-        },
-        {
-          techname: "Vue JS",
-        },
-        {
-          techname: "Material UI",
-        },
-      ],
-    },
-
-    {
-      companyname: "Youtube",
-      position: "Full Stack Developer",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
-      year: "2019-2020",
-
-      techskills: [
-        {
-          techname: "Django",
-        },
-        {
-          techname: "Express JS",
-        },
-        {
-          techname: "Vue JS",
-        },
-        {
-          techname: "Material UI",
-        },
-      ],
-    },
-
-    {
-      companyname: "Microsoft",
-      position: "Full Stack Developer",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
+      companyname: "Complejo De La Presidencia Municipal SFR",
+      position: "Desarrollo De Sistemas",
+      des: " Desarrolle el sistema central de ingresos monetarios para todas las dependencias",
       year: "2018-2019",
 
       techskills: [
         {
-          techname: "Python",
+          techname: "SQL Server",
         },
         {
-          techname: "Express JS",
+          techname: "C# POO",
         },
         {
-          techname: "Vue JS",
-        },
-        {
-          techname: "Material UI",
+          techname: "MYSQL",
         },
       ],
     },
 
     {
-      companyname: "WhatsApp",
-      position: "Full Stack Developer",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
-      year: "2017-2018",
+      companyname: "Evaluación Integral De Obras Civiles S.A. De C.V.",
+      position: "Sistemas Informaticos, Soporte, Computación",
+      des: "Administrar Sistemas Informaticos y dar soporte de ellos, Administración del servidor",
+      year: "2013-2017",
 
       techskills: [
         {
-          techname: "Typescript",
+          techname: "Linux",
         },
         {
-          techname: "Express JS",
+          techname: "Soporte Técnico",
         },
         {
-          techname: "Next JS",
+          techname: "Redes",
         },
         {
-          techname: "Material UI",
+          techname: "Administación de computadoras",
         },
+
       ],
     },
 
-    {
-      companyname: "Instagram",
-      position: "Full Stack Developer",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
-      year: "2016-2017",
+    {      companyname: "Acremex",
+      position: "Ejecutivo De Desarrollo De Sistemas",
+      des: "Desarrollo de modulos de JurisWeb y modulos de Administrador de Documentos digitalizados de los socios ",
+      year: "2018-2019",
 
       techskills: [
         {
-          techname: "Javascript",
+          techname: "PHP",
         },
         {
-          techname: "Express JS",
+          techname: "Java",
         },
         {
-          techname: "Next JS",
+          techname: "SQL Server",
         },
         {
-          techname: "Material UI",
+          techname: "MySQL",
         },
       ],
     },

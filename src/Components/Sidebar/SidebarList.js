@@ -101,7 +101,7 @@ const SidebarList = ({ expandSidebar }) => {
                 duration={100}
                 offset={-100}
               >
-                <FcSalesPerformance size={25} /> Lenguajes
+                <FcSalesPerformance size={25} /> Portafolio
               </Link>
             </li>
             <li className="nav-item">
