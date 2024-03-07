@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PorfolioAdrian/build/static/css/main.ab7a6b9e.css",
-    "main.js": "/PorfolioAdrian/build/static/js/main.7edaefc5.js",
+    "main.js": "/PorfolioAdrian/build/static/js/main.6ded59da.js",
     "static/js/787.c4e7f8f9.chunk.js": "/PorfolioAdrian/build/static/js/787.c4e7f8f9.chunk.js",
     "static/media/a.jpg": "/PorfolioAdrian/build/static/media/a.197078efca1f4c5735a8.jpg",
     "static/media/cv.pdf": "/PorfolioAdrian/build/static/media/cv.d945b2078e6770190be3.pdf",
@@ -11,11 +11,11 @@
     "index.html": "/PorfolioAdrian/build/index.html",
     "static/media/slick.woff": "/PorfolioAdrian/build/static/media/slick.295183786cd8a1389865.woff",
     "main.ab7a6b9e.css.map": "/PorfolioAdrian/build/static/css/main.ab7a6b9e.css.map",
-    "main.7edaefc5.js.map": "/PorfolioAdrian/build/static/js/main.7edaefc5.js.map",
+    "main.6ded59da.js.map": "/PorfolioAdrian/build/static/js/main.6ded59da.js.map",
     "787.c4e7f8f9.chunk.js.map": "/PorfolioAdrian/build/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab7a6b9e.css",
-    "static/js/main.7edaefc5.js"
+    "static/js/main.6ded59da.js"
   ]
 }

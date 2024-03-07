@@ -15,7 +15,7 @@ const Testimonial = () => {
       portfolio: [
         "https://quiet-gaufre-4210e2.netlify.app/",
         "https://jaggalvan.github.io/Listado/build/",
-        "https://github.com/tu-usuario/angular-project-3",
+        "https://jaggalvan.github.io/FrasesSimpsons/build/",
         "https://github.com/tu-usuario/angular-project-4",
         "https://github.com/tu-usuario/angular-project-5",
         // Añade más enlaces aquí si es necesario
