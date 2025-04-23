@@ -3,7 +3,7 @@
   background-image: url("../../../src/assets/Testimonial/bg-1.jpg");
   background-position: center;
   background-attachment: fixed;
-  position: relative; /* Se ajusta a relative para que los elementos sean accesibles */
+  position: relative;
 }
 
 .testimonial-section::before {
@@ -15,7 +15,7 @@
   height: 100%;
   opacity: 0.85;
   background-color: #1f2235;
-  z-index: 0; /* Se cambia de -1 a 0 para no ocultar el contenido */
+  z-index: 0;
 }
 
 .footer-image {
@@ -37,6 +37,11 @@
   background-color: white;
   padding: 30px;
   border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .testimonial-section .client-info {
@@ -44,7 +49,12 @@
   padding-left: 80px;
   padding-top: 5px;
   min-height: 60px;
-  z-index: 2; /* Se asegura de estar por encima */
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .testimonial-section .client-info img {
@@ -55,23 +65,47 @@
   position: absolute;
   left: 0;
   top: 0;
-  cursor: pointer; /* Se asegura de que el cursor indique interactividad */
-  pointer-events: auto; /* Permite los clics */
+  cursor: pointer;
+  pointer-events: auto;
 }
 
-.client-info a {
-  display: inline-block;
-  cursor: pointer;
+.testi-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.client-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 img {
-  pointer-events: auto;
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
 }
+
 .scroll-container {
   display: flex;
-  overflow-x: auto; /* Permite el desplazamiento horizontal */
-  white-space: nowrap; /* Evita que los elementos salten de línea */
-  scroll-snap-type: x mandatory; /* Mejora el desplazamiento */
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
   padding: 10px 0;
 }
 
@@ -80,12 +114,12 @@ img {
 }
 
 .custom-carousel .owl-item {
-  scroll-snap-align: start; /* Asegura el alineado al hacer scroll */
+  scroll-snap-align: start;
 }
 
 .testi-item {
   display: inline-block;
-  width: 300px; /* Ajusta según el tamaño deseado */
+  width: 300px;
   margin-right: 15px;
   background: white;
   padding: 20px;
@@ -104,6 +138,7 @@ img {
   border-radius: 50%;
   margin-top: 10px;
 }
+
 .button-container {
   display: flex;
   justify-content: center;
@@ -160,13 +195,6 @@ img {
   transform: scale(1.05);
 }
 
-.button-container {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
 .carousel-button {
   background-color: #007bff;
   color: white;
@@ -180,12 +208,4 @@ img {
 
 .carousel-button:hover {
   background-color: #0056b3;
-}
-
-.testimonial-section .owl-carousel {
-  display: flex;
-  flex-direction: row;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  padding-bottom: 15px;
 }
