@@ -94,7 +94,11 @@ export default function ContactMe(props) {
           </div>
           <form onSubmit={submitForm}>
             <p>{banner}</p>
+<<<<<<< HEAD
             <label htmlFor="nombre">Nombre</label>
+=======
+            <label htmlFor="name">Name</label>
+>>>>>>> main
             <input type="text" onChange={handleName} value={name} />
 
             <label htmlFor="email">Email</label>

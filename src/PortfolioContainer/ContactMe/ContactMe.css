@@ -1,5 +1,10 @@
 .main-container {
   min-height: 100vh;
+<<<<<<< HEAD
+=======
+  /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
+
+>>>>>>> main
   margin: 100px 0 0 0;
 }
 
@@ -23,7 +28,11 @@
 }
 
 .back-form {
+<<<<<<< HEAD
   max-width: 100%; /* Asegura que la forma ocupe el 100% del contenedor */
+=======
+  max-width: 380px;
+>>>>>>> main
   margin: 0 auto;
 }
 
@@ -46,7 +55,11 @@
 }
 
 .central-form form {
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: auto;
+>>>>>>> main
   box-shadow: 0 0 2px 1px white;
   display: flex;
   color: #111;
@@ -76,8 +89,12 @@ form label {
 
 form input,
 textarea {
+<<<<<<< HEAD
   width: 100%; /* Asegura que el ancho ocupe todo el espacio disponible */
   max-width: 400px; /* Limita el ancho máximo para que no se desborden */
+=======
+  width: 100%;
+>>>>>>> main
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
   background-color: rgba(230, 230, 230, 0.6);
@@ -86,14 +103,20 @@ textarea {
   margin-bottom: 22px;
   transition: 0.3s;
   border-radius: 10px;
+<<<<<<< HEAD
   resize: vertical; /* Permite el redimensionamiento solo en sentido vertical */
+=======
+>>>>>>> main
 }
 
 textarea:focus {
   border: 2px solid rgba(30, 85, 250, 0.47);
   background-color: #fff;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 form input:focus {
   border: 2px solid rgba(30, 85, 250, 0.47);
   background-color: #fff;
@@ -103,6 +126,7 @@ form button {
   margin-top: 15px;
   padding: 5px;
   outline: none;
+<<<<<<< HEAD
   width: 160px; /* Cambié el ancho para que no ocupe el 100% */
   color: rgb(230, 227, 227);
   border: 2px solid #ff5823;
@@ -110,6 +134,16 @@ form button {
   border-radius: 19px;
   background-color: #1f2235;
   display: flex;
+=======
+  width: 900px;
+  color: rgb(230, 227, 227);
+  border: 2px solid #ff5823;
+  font-size: 12px;
+  border-radius: 19px;
+  background-color: #1f2235;
+  font-size: 18px;
+  width: 160px;
+>>>>>>> main
   align-items: center;
   justify-content: center;
 }
@@ -128,12 +162,18 @@ button .load img {
   width: 60px;
   color: green;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 .col i {
   padding: 7px;
   color: #fff;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 .col i:hover {
   transform: scale(1.5);
 }
@@ -157,11 +197,15 @@ button .load img {
     flex: 0.9;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 @media screen and (max-width: 414px) {
   .central-form h2 {
     font-size: 16px;
   }
+<<<<<<< HEAD
 
   form input,
   textarea {
@@ -171,4 +215,6 @@ button .load img {
   form button {
     width: 100%; /* El botón ocupará el 100% del ancho en pantallas pequeñas */
   }
+=======
+>>>>>>> main
 }
