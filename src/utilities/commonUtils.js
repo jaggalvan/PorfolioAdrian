@@ -22,10 +22,6 @@ export const TOTAL_SCREENS = [
     screen_name: "Proyectos",
     component: Testimonial,
   },
-   {
-    screen_name: "Certificados",
-    component: Certificados,
-  }, 
   {
     screen_name: "Contactame",
     component: ContactMe,

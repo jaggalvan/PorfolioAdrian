@@ -70,39 +70,54 @@ export default function Testimonial(props) {
             <button onClick={() => scrollRight(carouselRef1)} style={{ cursor: "pointer", zIndex: "10", position: "relative" }}>➡</button>
           </div>
           <OwlCarousel ref={carouselRef1} className="owl-carousel custom-carousel" {...options}>
-            <div className="testi-item" style={{ display: 'inline-block', width: '300px', marginRight: '10px' }}>
-              <div className="testi-comment">
-                <p>
-                  
-                Gestión de tareas dinámicas
-                  
-                </p>
-              </div>
-              <div className="client-info">
-                <a href="https://jaggalvan.github.io/Listado/build/" target="_blank" rel="noopener noreferrer">
-                  <img src={lady} alt="Testimonio" style={{ cursor: 'pointer' }} />
-                </a>
-                
-                <p>Esta aplicación fue desarrollada en React.js con componentes reutilizables y gestión de estado.</p>
-              </div>
+          <div className="testi-item">
+          <p>Gestión de tareas dinámicas</p>
+            <div className="image-container">
+              <a href="https://jaggalvan.github.io/Listado/build/" target="_blank" rel="noopener noreferrer">
+                <img src={lady} alt="Testimonio" />
+              </a>
             </div>
-            <div className="testi-item" style={{ display: 'inline-block', width: '300px', marginRight: '10px' }}>
-              <div className="testi-comment">
-                <p>
-                  
-                Esta app utiliza React con manejo de estado y consumo de API
-                  
-                </p>
-              </div>
-              <div className="client-info">
-                <a href="https://quiet-gaufre-4210e2.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  <img src={ricky} alt="Testimonio" style={{ cursor: 'pointer' }} />
-                </a>
-                
-                <p>Aplicación desarrollada en React.js que consume una API para mostrar información de personajes de Rick & Morty de forma dinámica e interactiva.</p>
-              </div>
+         
+              <p>Esta aplicación fue desarrollada en React.js con componentes reutilizables y gestión de estado.</p>
+            
+          </div>
 
-            </div><div className="testi-item" style={{ display: 'inline-block', width: '300px', marginRight: '10px' }}>
+          <div className="testi-item">
+          <p>Esta app utiliza React con manejo de estado y consumo de API</p>
+            <div className="image-container">
+              <a href="https://jaggalvan.github.io/Listado/build/" target="_blank" rel="noopener noreferrer">
+                <img src={ricky} alt="Testimonio" />
+              </a>
+            </div>
+         
+            <p>Aplicación desarrollada en React.js que consume una API para mostrar información de personajes de Rick & Morty de forma dinámica e interactiva.</p>
+            
+          </div>
+
+          <div className="testi-item">
+          <p>Aplicación web interactiva en React que muestra las mejores frases de Los Simpsons</p>
+            <div className="image-container">
+              <a href="https://jaggalvan.github.io/FrasesSimpsons/build/" target="_blank" rel="noopener noreferrer">
+                <img src={simpsons} alt="Testimonio" />
+              </a>
+            </div>
+         
+            <p>Consume una API para obtener y mostrar frases icónicas de Los Simpsons en una interfaz moderna y responsiva.</p>
+            
+          </div>          
+
+          <div className="testi-item">
+          <p>Aplicación desarrollada en React.js que permite calcular el crecimiento de una inversión a lo largo del tiempo.</p>
+            <div className="image-container">
+              <a href="https://jaggalvan.github.io/Listado/build/" target="_blank" rel="noopener noreferrer">
+                <img src={balance} alt="Testimonio" />
+              </a>
+            </div>
+         
+            <p>Utiliza formularios controlados para la entrada de datos y eventos en React para calcular el balance final.</p>
+            
+          </div>    
+        {/*     <div className="testi-item" style={{ display: 'inline-block', width: '300px', marginRight: '10px' }}>
               <div className="testi-comment">
                 <p>
                   
@@ -117,23 +132,8 @@ export default function Testimonial(props) {
                 
                 <p>Consume una API para obtener y mostrar frases icónicas de Los Simpsons en una interfaz moderna y responsiva.</p>
               </div>
-            </div>
-            <div className="testi-item" style={{ display: 'inline-block', width: '300px', marginRight: '10px' }}>
-              <div className="testi-comment">
-                <p>
-                  
-                Aplicación desarrollada en React.js que permite calcular el crecimiento de una inversión a lo largo del tiempo.
-                  
-                </p>
-              </div>
-              <div className="client-info">
-                <a href="https://jaggalvan.github.io/Listado/build/" target="_blank" rel="noopener noreferrer">
-                  <img src={balance} alt="Testimonio" style={{ cursor: 'pointer' }} />
-                </a>
-                
-                <p>Utiliza formularios controlados para la entrada de datos y eventos en React para calcular el balance final.</p>
-              </div>
-            </div>
+            </div> */}
+
             
           </OwlCarousel>
         </div>
@@ -146,22 +146,20 @@ export default function Testimonial(props) {
             <button onClick={() => scrollRight(carouselRef2)} style={{ cursor: "pointer", zIndex: "10", position: "relative" }}>➡</button>
           </div>
           <OwlCarousel ref={carouselRef2} className="owl-carousel custom-carousel" {...options}>
-            <div className="testi-item" style={{ display: 'inline-block', width: '300px', marginRight: '10px' }}>
-              <div className="testi-comment">
-                <p>
-                  
-                  Diseño UX certificado Google
-                  
-                </p>
-              </div>
-              <div className="client-info">
-                <a href="https://jaggalvan.github.io/UX/" target="_blank" rel="noopener noreferrer">
-                  <img src={UX1} alt="Testimonio" style={{ cursor: 'pointer' }} />
-                </a>
-                
-                <p>Explora mis proyectos de diseño centrado en el usuario, donde busco crear soluciones intuitivas y funcionales. Cada proyecto refleja mi enfoque en mejorar la experiencia digital a través de un diseño eficiente.</p>
-              </div>
+            
+          <div className="testi-item">
+          <p>Diseño UX certificado Google.</p>
+            <div className="image-container">
+              <a href="https://jaggalvan.github.io/UX/" target="_blank" rel="noopener noreferrer">
+                <img src={UX1} alt="Testimonio" />
+              </a>
             </div>
+         
+            <p>Explora mis proyectos de diseño centrado en el usuario, donde busco crear soluciones intuitivas y funcionales. Cada proyecto refleja mi enfoque en mejorar la experiencia digital a través de un diseño eficiente.</p>
+            
+          </div>             
+            
+
           </OwlCarousel>
         </div>
       </section>
