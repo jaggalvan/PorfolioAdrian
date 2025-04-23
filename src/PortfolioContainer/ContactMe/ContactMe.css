@@ -1,7 +1,5 @@
 .main-container {
   min-height: 100vh;
-  /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
-
   margin: 100px 0 0 0;
 }
 
@@ -25,7 +23,7 @@
 }
 
 .back-form {
-  max-width: 380px;
+  max-width: 100%; /* Asegura que la forma ocupe el 100% del contenedor */
   margin: 0 auto;
 }
 
@@ -48,7 +46,7 @@
 }
 
 .central-form form {
-  width: auto;
+  width: 100%;
   box-shadow: 0 0 2px 1px white;
   display: flex;
   color: #111;
@@ -78,7 +76,8 @@ form label {
 
 form input,
 textarea {
-  width: 100%;
+  width: 100%; /* Asegura que el ancho ocupe todo el espacio disponible */
+  max-width: 400px; /* Limita el ancho máximo para que no se desborden */
   border: 2px solid rgba(0, 0, 0, 0);
   outline: none;
   background-color: rgba(230, 230, 230, 0.6);
@@ -87,12 +86,14 @@ textarea {
   margin-bottom: 22px;
   transition: 0.3s;
   border-radius: 10px;
+  resize: vertical; /* Permite el redimensionamiento solo en sentido vertical */
 }
 
 textarea:focus {
   border: 2px solid rgba(30, 85, 250, 0.47);
   background-color: #fff;
 }
+
 form input:focus {
   border: 2px solid rgba(30, 85, 250, 0.47);
   background-color: #fff;
@@ -102,14 +103,13 @@ form button {
   margin-top: 15px;
   padding: 5px;
   outline: none;
-  width: 900px;
+  width: 160px; /* Cambié el ancho para que no ocupe el 100% */
   color: rgb(230, 227, 227);
   border: 2px solid #ff5823;
-  font-size: 12px;
+  font-size: 18px;
   border-radius: 19px;
   background-color: #1f2235;
-  font-size: 18px;
-  width: 160px;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -128,10 +128,12 @@ button .load img {
   width: 60px;
   color: green;
 }
+
 .col i {
   padding: 7px;
   color: #fff;
 }
+
 .col i:hover {
   transform: scale(1.5);
 }
@@ -155,8 +157,18 @@ button .load img {
     flex: 0.9;
   }
 }
+
 @media screen and (max-width: 414px) {
   .central-form h2 {
     font-size: 16px;
+  }
+
+  form input,
+  textarea {
+    max-width: 100%; /* El input y textarea ocuparán todo el espacio disponible en pantallas pequeñas */
+  }
+
+  form button {
+    width: 100%; /* El botón ocupará el 100% del ancho en pantallas pequeñas */
   }
 }
